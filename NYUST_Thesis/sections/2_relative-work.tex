@@ -1,0 +1,19 @@
+\renewcommand\thetable{\arabic{chapter}-\arabic{table}}
+%\renewcommand\thefigure{\arabic{chapter}-\arabic{figure}}
+\renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
+\chapter{Preliminaries}
+\label{sec:preliminaries}
+
+近年來，醫療資安事件頻傳，如：2025年某醫美診所遭駭客入侵，顯示出現有的傳統加密與防護機制在面對新型態網路攻擊時，仍存在效率不足或安全漏洞的挑戰。因此，如何建立一個兼具高安全性與傳輸效率的加密/驗證機制，已成為當前急需解決的課題。
+
+在現有的加密標準中，常用的對稱式加密（Symmetric Key Algorithm）AES（Advanced Encryption Standard）雖具有高度安全性並被廣泛採用，但其標準運算流程涉及繁複的矩陣運算與位元組代換，對於運算能力與電池續航力極度受限的物聯網終端節點（如 IoMT 感測器）而言，往往帶來沉重的運算負載與延遲。此外，雖然 RSA(Rivest Shamir Adleman)、ECC (Elliptic Curve Cryptography，橢圓曲線加密)、DSA (Digital Signature Algorithm，數位簽章演算法) 、DH (Diffie-Hellman)等非對稱加密算法能提供身分驗證，但其運算開銷遠高於對稱式加密，難以直接應用於高頻率的即時數據加密。
+如圖~\ref{fig:PHI}所示。
+
+
+\begin{figure}[H] % [t!]塞到該頁的最頂端[H]塞在這裡
+  \begin{center}
+    \includegraphics[width=1.0\textwidth]{figures/000.png}
+    \caption{MY schedule} 
+    \label{fig:PHI}
+  \end{center}
+\end{figure}
