@@ -18,6 +18,7 @@
 
 references的bibtex檔請放置於目錄第一層之my_bib.bib
 
+
 何把文獻放進去？（最快的方法：Google Scholar）
 
 去 Google Scholar 搜尋你要引用的論文。
